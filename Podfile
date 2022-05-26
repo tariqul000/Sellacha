@@ -5,7 +5,8 @@ target 'SellAcha' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Charts'
-  pod 'CircleBar', :path => '../'
+  pod 'CircleBar'
+
 
 
   # Pods for SellAcha

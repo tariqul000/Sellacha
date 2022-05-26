@@ -16,12 +16,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor(red: 0.898, green: 0.898, blue: 0.898, alpha: 1)
-        ProfileimageView.makeRounded()
+      //  ProfileimageView.makeRounded()
       
     
-        LoginDownView.clipsToBounds = true
-        LoginDownView.layer.cornerRadius = 50
-        LoginDownView.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
+//        LoginDownView.clipsToBounds = true
+//        LoginDownView.layer.cornerRadius = 50
+//        LoginDownView.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
         
 //        imageBackGView.layer.cornerRadius = 50
 //        imageBackGView.clipsToBounds = true
