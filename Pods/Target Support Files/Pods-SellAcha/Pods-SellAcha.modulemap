@@ -1,0 +1,6 @@
+framework module Pods_SellAcha {
+  umbrella header "Pods-SellAcha-umbrella.h"
+
+  export *
+  module * { export * }
+}

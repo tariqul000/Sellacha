@@ -1,0 +1,6 @@
+framework module Pods_SellAcha_SellAchaUITests {
+  umbrella header "Pods-SellAcha-SellAchaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

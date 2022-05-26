@@ -1,0 +1,6 @@
+framework module Pods_SellAchaTests {
+  umbrella header "Pods-SellAchaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E259E05D647AAC375566EE5 /* Pods_SellAchaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FAE402DDCAE030453CCB85 /* Pods_SellAchaTests.framework */; };
+		7EFAA243FFBA4A74C7C3911B /* Pods_SellAcha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BE257A3931420092ADCCDE /* Pods_SellAcha.framework */; };
+		88724F1528198E2A001FF01D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88724F1428198E2A001FF01D /* AppDelegate.swift */; };
+		88724F1728198E2A001FF01D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88724F1628198E2A001FF01D /* SceneDelegate.swift */; };
+		88724F1928198E2A001FF01D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88724F1828198E2A001FF01D /* ViewController.swift */; };
+		88724F1C28198E2A001FF01D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88724F1A28198E2A001FF01D /* Main.storyboard */; };
+		88724F1E28198E30001FF01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88724F1D28198E30001FF01D /* Assets.xcassets */; };
+		88724F2128198E30001FF01D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88724F1F28198E30001FF01D /* LaunchScreen.storyboard */; };
+		88724F2C28198E31001FF01D /* SellAchaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88724F2B28198E31001FF01D /* SellAchaTests.swift */; };
+		88724F3628198E31001FF01D /* SellAchaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88724F3528198E31001FF01D /* SellAchaUITests.swift */; };
+		88724F3828198E31001FF01D /* SellAchaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88724F3728198E31001FF01D /* SellAchaUITestsLaunchTests.swift */; };
+		88724F4728199075001FF01D /* UISupportFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88724F4628199075001FF01D /* UISupportFile.swift */; };
+		88DBC9E3281A764C00783EAE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBC9E2281A764B00783EAE /* SignUpViewController.swift */; };
+		88DBC9E5281A866900783EAE /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBC9E4281A866900783EAE /* DashBoardViewController.swift */; };
+		88DBCA23281AFCB400783EAE /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBCA22281AFCB400783EAE /* LocationViewController.swift */; };
+		88DBCA25281B044A00783EAE /* LocationTableViewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBCA24281B044A00783EAE /* LocationTableViewcell.swift */; };
+		88DBCA27281B120C00783EAE /* CreateLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBCA26281B120C00783EAE /* CreateLocationViewController.swift */; };
+		88DBCA29281B174200783EAE /* handsome-18743.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88DBCA28281B174200783EAE /* handsome-18743.jpg */; };
+		88DBCA2B281B919200783EAE /* ShippingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBCA2A281B919200783EAE /* ShippingViewController.swift */; };
+		88DBCA2D281B91B300783EAE /* CreateShippingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBCA2C281B91B300783EAE /* CreateShippingViewController.swift */; };
+		88DBCA2F281C012700783EAE /* CreatingShoppingMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBCA2E281C012700783EAE /* CreatingShoppingMethodViewController.swift */; };
+		88EC72BF281C244E007F6905 /* ProfileViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EC72BE281C244D007F6905 /* ProfileViewViewController.swift */; };
+		88EC72C1281D3C3B007F6905 /* InvoiceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EC72C0281D3C3B007F6905 /* InvoiceDetailsViewController.swift */; };
+		88FD3B4E2822D77800AE03E2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FD3B4C2822D77800AE03E2 /* SWRevealViewController.m */; };
+		88FD3B502822DD1E00AE03E2 /* SideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FD3B4F2822DD1E00AE03E2 /* SideViewController.swift */; };
+		88FD3B522822F4D600AE03E2 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FD3B512822F4D600AE03E2 /* ProductsViewController.swift */; };
+		88FD3B542822F4ED00AE03E2 /* CustomersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FD3B532822F4ED00AE03E2 /* CustomersViewController.swift */; };
+		88FD3B562822FA6A00AE03E2 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FD3B552822FA6A00AE03E2 /* TransactionsViewController.swift */; };
+		88FD3B582822FDE900AE03E2 /* TransectionIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FD3B572822FDE900AE03E2 /* TransectionIDViewController.swift */; };
+		DA84C055899E4320269158A2 /* Pods_SellAcha_SellAchaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5421918721B7641A397C14F /* Pods_SellAcha_SellAchaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88724F2828198E31001FF01D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88724F0928198E2A001FF01D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88724F1028198E2A001FF01D;
+			remoteInfo = SellAcha;
+		};
+		88724F3228198E31001FF01D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88724F0928198E2A001FF01D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88724F1028198E2A001FF01D;
+			remoteInfo = SellAcha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		491FBA39D2465445D9D49151 /* Pods-SellAchaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAchaTests.debug.xcconfig"; path = "Target Support Files/Pods-SellAchaTests/Pods-SellAchaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78BE257A3931420092ADCCDE /* Pods_SellAcha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SellAcha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88724F1128198E2A001FF01D /* SellAcha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SellAcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88724F1428198E2A001FF01D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88724F1628198E2A001FF01D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88724F1828198E2A001FF01D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88724F1B28198E2A001FF01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88724F1D28198E30001FF01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88724F2028198E30001FF01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88724F2228198E30001FF01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88724F2728198E31001FF01D /* SellAchaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SellAchaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88724F2B28198E31001FF01D /* SellAchaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellAchaTests.swift; sourceTree = "<group>"; };
+		88724F3128198E31001FF01D /* SellAchaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SellAchaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88724F3528198E31001FF01D /* SellAchaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellAchaUITests.swift; sourceTree = "<group>"; };
+		88724F3728198E31001FF01D /* SellAchaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellAchaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88724F4628199075001FF01D /* UISupportFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISupportFile.swift; sourceTree = "<group>"; };
+		88DBC9E2281A764B00783EAE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		88DBC9E4281A866900783EAE /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		88DBCA22281AFCB400783EAE /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		88DBCA24281B044A00783EAE /* LocationTableViewcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewcell.swift; sourceTree = "<group>"; };
+		88DBCA26281B120C00783EAE /* CreateLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLocationViewController.swift; sourceTree = "<group>"; };
+		88DBCA28281B174200783EAE /* handsome-18743.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "handsome-18743.jpg"; sourceTree = "<group>"; };
+		88DBCA2A281B919200783EAE /* ShippingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingViewController.swift; sourceTree = "<group>"; };
+		88DBCA2C281B91B300783EAE /* CreateShippingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateShippingViewController.swift; sourceTree = "<group>"; };
+		88DBCA2E281C012700783EAE /* CreatingShoppingMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingShoppingMethodViewController.swift; sourceTree = "<group>"; };
+		88EC72BE281C244D007F6905 /* ProfileViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewController.swift; sourceTree = "<group>"; };
+		88EC72C0281D3C3B007F6905 /* InvoiceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceDetailsViewController.swift; sourceTree = "<group>"; };
+		88FD3B4B2822D77700AE03E2 /* SellAcha-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SellAcha-Bridging-Header.h"; sourceTree = "<group>"; };
+		88FD3B4C2822D77800AE03E2 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		88FD3B4D2822D77800AE03E2 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		88FD3B4F2822DD1E00AE03E2 /* SideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideViewController.swift; sourceTree = "<group>"; };
+		88FD3B512822F4D600AE03E2 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		88FD3B532822F4ED00AE03E2 /* CustomersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersViewController.swift; sourceTree = "<group>"; };
+		88FD3B552822FA6A00AE03E2 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		88FD3B572822FDE900AE03E2 /* TransectionIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransectionIDViewController.swift; sourceTree = "<group>"; };
+		9280BB58E34513DE865306EF /* Pods-SellAcha-SellAchaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAcha-SellAchaUITests.debug.xcconfig"; path = "Target Support Files/Pods-SellAcha-SellAchaUITests/Pods-SellAcha-SellAchaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4FAE402DDCAE030453CCB85 /* Pods_SellAchaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SellAchaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5421918721B7641A397C14F /* Pods_SellAcha_SellAchaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SellAcha_SellAchaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9F66687728A11C14084662 /* Pods-SellAchaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAchaTests.release.xcconfig"; path = "Target Support Files/Pods-SellAchaTests/Pods-SellAchaTests.release.xcconfig"; sourceTree = "<group>"; };
+		E12F64CD5D247D3F8CACE6A9 /* Pods-SellAcha-SellAchaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAcha-SellAchaUITests.release.xcconfig"; path = "Target Support Files/Pods-SellAcha-SellAchaUITests/Pods-SellAcha-SellAchaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E4A37EA24E83F8FC588F80A9 /* Pods-SellAcha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAcha.debug.xcconfig"; path = "Target Support Files/Pods-SellAcha/Pods-SellAcha.debug.xcconfig"; sourceTree = "<group>"; };
+		F20AAF86B0E063D6C30E8930 /* Pods-SellAcha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAcha.release.xcconfig"; path = "Target Support Files/Pods-SellAcha/Pods-SellAcha.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88724F0E28198E2A001FF01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFAA243FFBA4A74C7C3911B /* Pods_SellAcha.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88724F2428198E31001FF01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E259E05D647AAC375566EE5 /* Pods_SellAchaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88724F2E28198E31001FF01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA84C055899E4320269158A2 /* Pods_SellAcha_SellAchaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0273CAD0DAF3A41FD9479955 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78BE257A3931420092ADCCDE /* Pods_SellAcha.framework */,
+				A5421918721B7641A397C14F /* Pods_SellAcha_SellAchaUITests.framework */,
+				A4FAE402DDCAE030453CCB85 /* Pods_SellAchaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		248E29C82D1C8BFF43E1E3D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4A37EA24E83F8FC588F80A9 /* Pods-SellAcha.debug.xcconfig */,
+				F20AAF86B0E063D6C30E8930 /* Pods-SellAcha.release.xcconfig */,
+				9280BB58E34513DE865306EF /* Pods-SellAcha-SellAchaUITests.debug.xcconfig */,
+				E12F64CD5D247D3F8CACE6A9 /* Pods-SellAcha-SellAchaUITests.release.xcconfig */,
+				491FBA39D2465445D9D49151 /* Pods-SellAchaTests.debug.xcconfig */,
+				BF9F66687728A11C14084662 /* Pods-SellAchaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		88724F0828198E2A001FF01D = {
+			isa = PBXGroup;
+			children = (
+				88724F1328198E2A001FF01D /* SellAcha */,
+				88724F2A28198E31001FF01D /* SellAchaTests */,
+				88724F3428198E31001FF01D /* SellAchaUITests */,
+				88724F1228198E2A001FF01D /* Products */,
+				248E29C82D1C8BFF43E1E3D5 /* Pods */,
+				0273CAD0DAF3A41FD9479955 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88724F1228198E2A001FF01D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88724F1128198E2A001FF01D /* SellAcha.app */,
+				88724F2728198E31001FF01D /* SellAchaTests.xctest */,
+				88724F3128198E31001FF01D /* SellAchaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88724F1328198E2A001FF01D /* SellAcha */ = {
+			isa = PBXGroup;
+			children = (
+				88724F1428198E2A001FF01D /* AppDelegate.swift */,
+				88724F1628198E2A001FF01D /* SceneDelegate.swift */,
+				88724F4628199075001FF01D /* UISupportFile.swift */,
+				88FD3B4D2822D77800AE03E2 /* SWRevealViewController.h */,
+				88FD3B4C2822D77800AE03E2 /* SWRevealViewController.m */,
+				88FD3B4B2822D77700AE03E2 /* SellAcha-Bridging-Header.h */,
+				88EC72C2281D68CA007F6905 /* ViewControllers */,
+				88DBCA24281B044A00783EAE /* LocationTableViewcell.swift */,
+				88DBCA28281B174200783EAE /* handsome-18743.jpg */,
+				88724F1A28198E2A001FF01D /* Main.storyboard */,
+				88724F1D28198E30001FF01D /* Assets.xcassets */,
+				88724F1F28198E30001FF01D /* LaunchScreen.storyboard */,
+				88724F2228198E30001FF01D /* Info.plist */,
+			);
+			path = SellAcha;
+			sourceTree = "<group>";
+		};
+		88724F2A28198E31001FF01D /* SellAchaTests */ = {
+			isa = PBXGroup;
+			children = (
+				88724F2B28198E31001FF01D /* SellAchaTests.swift */,
+			);
+			path = SellAchaTests;
+			sourceTree = "<group>";
+		};
+		88724F3428198E31001FF01D /* SellAchaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88724F3528198E31001FF01D /* SellAchaUITests.swift */,
+				88724F3728198E31001FF01D /* SellAchaUITestsLaunchTests.swift */,
+			);
+			path = SellAchaUITests;
+			sourceTree = "<group>";
+		};
+		88EC72C2281D68CA007F6905 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				88724F1828198E2A001FF01D /* ViewController.swift */,
+				88DBC9E2281A764B00783EAE /* SignUpViewController.swift */,
+				88DBC9E4281A866900783EAE /* DashBoardViewController.swift */,
+				88DBCA22281AFCB400783EAE /* LocationViewController.swift */,
+				88DBCA26281B120C00783EAE /* CreateLocationViewController.swift */,
+				88DBCA2A281B919200783EAE /* ShippingViewController.swift */,
+				88DBCA2C281B91B300783EAE /* CreateShippingViewController.swift */,
+				88DBCA2E281C012700783EAE /* CreatingShoppingMethodViewController.swift */,
+				88EC72BE281C244D007F6905 /* ProfileViewViewController.swift */,
+				88EC72C0281D3C3B007F6905 /* InvoiceDetailsViewController.swift */,
+				88FD3B4F2822DD1E00AE03E2 /* SideViewController.swift */,
+				88FD3B512822F4D600AE03E2 /* ProductsViewController.swift */,
+				88FD3B532822F4ED00AE03E2 /* CustomersViewController.swift */,
+				88FD3B552822FA6A00AE03E2 /* TransactionsViewController.swift */,
+				88FD3B572822FDE900AE03E2 /* TransectionIDViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88724F1028198E2A001FF01D /* SellAcha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88724F3B28198E31001FF01D /* Build configuration list for PBXNativeTarget "SellAcha" */;
+			buildPhases = (
+				52FF3D94123A886FDE8379BE /* [CP] Check Pods Manifest.lock */,
+				88724F0D28198E2A001FF01D /* Sources */,
+				88724F0E28198E2A001FF01D /* Frameworks */,
+				88724F0F28198E2A001FF01D /* Resources */,
+				FB211AF9B85FAD5AD01C620A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SellAcha;
+			productName = SellAcha;
+			productReference = 88724F1128198E2A001FF01D /* SellAcha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88724F2628198E31001FF01D /* SellAchaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88724F3E28198E31001FF01D /* Build configuration list for PBXNativeTarget "SellAchaTests" */;
+			buildPhases = (
+				FD5FD1D119B431D573ACD1B1 /* [CP] Check Pods Manifest.lock */,
+				88724F2328198E31001FF01D /* Sources */,
+				88724F2428198E31001FF01D /* Frameworks */,
+				88724F2528198E31001FF01D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88724F2928198E31001FF01D /* PBXTargetDependency */,
+			);
+			name = SellAchaTests;
+			productName = SellAchaTests;
+			productReference = 88724F2728198E31001FF01D /* SellAchaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88724F3028198E31001FF01D /* SellAchaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88724F4128198E31001FF01D /* Build configuration list for PBXNativeTarget "SellAchaUITests" */;
+			buildPhases = (
+				FBA06C04FDC3A84347D6616D /* [CP] Check Pods Manifest.lock */,
+				88724F2D28198E31001FF01D /* Sources */,
+				88724F2E28198E31001FF01D /* Frameworks */,
+				88724F2F28198E31001FF01D /* Resources */,
+				3A6F394527A99DB83E034699 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88724F3328198E31001FF01D /* PBXTargetDependency */,
+			);
+			name = SellAchaUITests;
+			productName = SellAchaUITests;
+			productReference = 88724F3128198E31001FF01D /* SellAchaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88724F0928198E2A001FF01D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					88724F1028198E2A001FF01D = {
+						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
+					};
+					88724F2628198E31001FF01D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 88724F1028198E2A001FF01D;
+					};
+					88724F3028198E31001FF01D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 88724F1028198E2A001FF01D;
+					};
+				};
+			};
+			buildConfigurationList = 88724F0C28198E2A001FF01D /* Build configuration list for PBXProject "SellAcha" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88724F0828198E2A001FF01D;
+			productRefGroup = 88724F1228198E2A001FF01D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88724F1028198E2A001FF01D /* SellAcha */,
+				88724F2628198E31001FF01D /* SellAchaTests */,
+				88724F3028198E31001FF01D /* SellAchaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88724F0F28198E2A001FF01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88724F2128198E30001FF01D /* LaunchScreen.storyboard in Resources */,
+				88DBCA29281B174200783EAE /* handsome-18743.jpg in Resources */,
+				88724F1E28198E30001FF01D /* Assets.xcassets in Resources */,
+				88724F1C28198E2A001FF01D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88724F2528198E31001FF01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88724F2F28198E31001FF01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A6F394527A99DB83E034699 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SellAcha-SellAchaUITests/Pods-SellAcha-SellAchaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SellAcha-SellAchaUITests/Pods-SellAcha-SellAchaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SellAcha-SellAchaUITests/Pods-SellAcha-SellAchaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52FF3D94123A886FDE8379BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SellAcha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB211AF9B85FAD5AD01C620A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SellAcha/Pods-SellAcha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SellAcha/Pods-SellAcha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SellAcha/Pods-SellAcha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA06C04FDC3A84347D6616D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SellAcha-SellAchaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD5FD1D119B431D573ACD1B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SellAchaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88724F0D28198E2A001FF01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DBCA2B281B919200783EAE /* ShippingViewController.swift in Sources */,
+				88FD3B522822F4D600AE03E2 /* ProductsViewController.swift in Sources */,
+				88FD3B542822F4ED00AE03E2 /* CustomersViewController.swift in Sources */,
+				88DBCA23281AFCB400783EAE /* LocationViewController.swift in Sources */,
+				88FD3B4E2822D77800AE03E2 /* SWRevealViewController.m in Sources */,
+				88DBCA2F281C012700783EAE /* CreatingShoppingMethodViewController.swift in Sources */,
+				88FD3B582822FDE900AE03E2 /* TransectionIDViewController.swift in Sources */,
+				88FD3B562822FA6A00AE03E2 /* TransactionsViewController.swift in Sources */,
+				88724F1928198E2A001FF01D /* ViewController.swift in Sources */,
+				88DBCA27281B120C00783EAE /* CreateLocationViewController.swift in Sources */,
+				88DBCA25281B044A00783EAE /* LocationTableViewcell.swift in Sources */,
+				88FD3B502822DD1E00AE03E2 /* SideViewController.swift in Sources */,
+				88724F4728199075001FF01D /* UISupportFile.swift in Sources */,
+				88724F1528198E2A001FF01D /* AppDelegate.swift in Sources */,
+				88DBCA2D281B91B300783EAE /* CreateShippingViewController.swift in Sources */,
+				88DBC9E5281A866900783EAE /* DashBoardViewController.swift in Sources */,
+				88724F1728198E2A001FF01D /* SceneDelegate.swift in Sources */,
+				88EC72C1281D3C3B007F6905 /* InvoiceDetailsViewController.swift in Sources */,
+				88EC72BF281C244E007F6905 /* ProfileViewViewController.swift in Sources */,
+				88DBC9E3281A764C00783EAE /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88724F2328198E31001FF01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88724F2C28198E31001FF01D /* SellAchaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88724F2D28198E31001FF01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88724F3828198E31001FF01D /* SellAchaUITestsLaunchTests.swift in Sources */,
+				88724F3628198E31001FF01D /* SellAchaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88724F2928198E31001FF01D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88724F1028198E2A001FF01D /* SellAcha */;
+			targetProxy = 88724F2828198E31001FF01D /* PBXContainerItemProxy */;
+		};
+		88724F3328198E31001FF01D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88724F1028198E2A001FF01D /* SellAcha */;
+			targetProxy = 88724F3228198E31001FF01D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88724F1A28198E2A001FF01D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88724F1B28198E2A001FF01D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88724F1F28198E30001FF01D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88724F2028198E30001FF01D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88724F3928198E31001FF01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88724F3A28198E31001FF01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88724F3C28198E31001FF01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A37EA24E83F8FC588F80A9 /* Pods-SellAcha.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D3MKM2YJ85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SellAcha/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Amtech.SellAcha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SellAcha/SellAcha-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88724F3D28198E31001FF01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20AAF86B0E063D6C30E8930 /* Pods-SellAcha.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D3MKM2YJ85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SellAcha/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Amtech.SellAcha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SellAcha/SellAcha-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88724F3F28198E31001FF01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491FBA39D2465445D9D49151 /* Pods-SellAchaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D3MKM2YJ85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Amtech.SellAchaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SellAcha.app/SellAcha";
+			};
+			name = Debug;
+		};
+		88724F4028198E31001FF01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9F66687728A11C14084662 /* Pods-SellAchaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D3MKM2YJ85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Amtech.SellAchaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SellAcha.app/SellAcha";
+			};
+			name = Release;
+		};
+		88724F4228198E31001FF01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9280BB58E34513DE865306EF /* Pods-SellAcha-SellAchaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D3MKM2YJ85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Amtech.SellAchaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SellAcha;
+			};
+			name = Debug;
+		};
+		88724F4328198E31001FF01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E12F64CD5D247D3F8CACE6A9 /* Pods-SellAcha-SellAchaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D3MKM2YJ85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Amtech.SellAchaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SellAcha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88724F0C28198E2A001FF01D /* Build configuration list for PBXProject "SellAcha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88724F3928198E31001FF01D /* Debug */,
+				88724F3A28198E31001FF01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88724F3B28198E31001FF01D /* Build configuration list for PBXNativeTarget "SellAcha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88724F3C28198E31001FF01D /* Debug */,
+				88724F3D28198E31001FF01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88724F3E28198E31001FF01D /* Build configuration list for PBXNativeTarget "SellAchaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88724F3F28198E31001FF01D /* Debug */,
+				88724F4028198E31001FF01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88724F4128198E31001FF01D /* Build configuration list for PBXNativeTarget "SellAchaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88724F4228198E31001FF01D /* Debug */,
+				88724F4328198E31001FF01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88724F0928198E2A001FF01D /* Project object */;
+}
