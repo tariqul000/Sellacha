@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor(red: 0.898, green: 0.898, blue: 0.898, alpha: 1)
-      //  ProfileimageView.makeRounded()
+       // ProfileimageView.makeRounded()
       
     
 //        LoginDownView.clipsToBounds = true

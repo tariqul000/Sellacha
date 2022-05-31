@@ -6,7 +6,9 @@ target 'SellAcha' do
   use_frameworks!
   pod 'Charts'
   pod 'CircleBar'
-
+  pod 'Alamofire'
+  pod 'AlamofireImage'
+  pod 'SwiftyJSON'
 
 
   # Pods for SellAcha

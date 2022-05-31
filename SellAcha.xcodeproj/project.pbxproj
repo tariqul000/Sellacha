@@ -36,6 +36,12 @@
 		88FD3B542822F4ED00AE03E2 /* CustomersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FD3B532822F4ED00AE03E2 /* CustomersViewController.swift */; };
 		88FD3B562822FA6A00AE03E2 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FD3B552822FA6A00AE03E2 /* TransactionsViewController.swift */; };
 		88FD3B582822FDE900AE03E2 /* TransectionIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FD3B572822FDE900AE03E2 /* TransectionIDViewController.swift */; };
+		B8EFB53028460C7B00FCD6CB /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB52F28460C7B00FCD6CB /* AppConstant.swift */; };
+		B8EFB53328460D6000FCD6CB /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB53228460D6000FCD6CB /* BaseRouter.swift */; };
+		B8EFB5402846226800FCD6CB /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB53F2846226800FCD6CB /* LoginRouter.swift */; };
+		B8EFB543284623BC00FCD6CB /* LoginApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB542284623BC00FCD6CB /* LoginApiService.swift */; };
+		B8EFB5452846246800FCD6CB /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB5442846246800FCD6CB /* ConnectionManager.swift */; };
+		B8EFB5492846390200FCD6CB /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB5482846390200FCD6CB /* Request.swift */; };
 		DA84C055899E4320269158A2 /* Pods_SellAcha_SellAchaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5421918721B7641A397C14F /* Pods_SellAcha_SellAchaUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +101,12 @@
 		9280BB58E34513DE865306EF /* Pods-SellAcha-SellAchaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAcha-SellAchaUITests.debug.xcconfig"; path = "Target Support Files/Pods-SellAcha-SellAchaUITests/Pods-SellAcha-SellAchaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4FAE402DDCAE030453CCB85 /* Pods_SellAchaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SellAchaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5421918721B7641A397C14F /* Pods_SellAcha_SellAchaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SellAcha_SellAchaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EFB52F28460C7B00FCD6CB /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		B8EFB53228460D6000FCD6CB /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		B8EFB53F2846226800FCD6CB /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		B8EFB542284623BC00FCD6CB /* LoginApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApiService.swift; sourceTree = "<group>"; };
+		B8EFB5442846246800FCD6CB /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		B8EFB5482846390200FCD6CB /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		BF9F66687728A11C14084662 /* Pods-SellAchaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAchaTests.release.xcconfig"; path = "Target Support Files/Pods-SellAchaTests/Pods-SellAchaTests.release.xcconfig"; sourceTree = "<group>"; };
 		E12F64CD5D247D3F8CACE6A9 /* Pods-SellAcha-SellAchaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAcha-SellAchaUITests.release.xcconfig"; path = "Target Support Files/Pods-SellAcha-SellAchaUITests/Pods-SellAcha-SellAchaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E4A37EA24E83F8FC588F80A9 /* Pods-SellAcha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAcha.debug.xcconfig"; path = "Target Support Files/Pods-SellAcha/Pods-SellAcha.debug.xcconfig"; sourceTree = "<group>"; };
@@ -177,6 +189,10 @@
 		88724F1328198E2A001FF01D /* SellAcha */ = {
 			isa = PBXGroup;
 			children = (
+				B8EFB53D2846224F00FCD6CB /* Login */,
+				B8EFB53A2846126200FCD6CB /* Network */,
+				B8EFB53128460D3100FCD6CB /* Base */,
+				B8EFB52E28460C5E00FCD6CB /* Util */,
 				88724F1428198E2A001FF01D /* AppDelegate.swift */,
 				88724F1628198E2A001FF01D /* SceneDelegate.swift */,
 				88724F4628199075001FF01D /* UISupportFile.swift */,
@@ -231,6 +247,56 @@
 				88FD3B572822FDE900AE03E2 /* TransectionIDViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B8EFB52E28460C5E00FCD6CB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFB52F28460C7B00FCD6CB /* AppConstant.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B8EFB53128460D3100FCD6CB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFB53228460D6000FCD6CB /* BaseRouter.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B8EFB53A2846126200FCD6CB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFB5442846246800FCD6CB /* ConnectionManager.swift */,
+				B8EFB5482846390200FCD6CB /* Request.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B8EFB53D2846224F00FCD6CB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFB541284623B200FCD6CB /* Services */,
+				B8EFB53E2846225B00FCD6CB /* Router */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B8EFB53E2846225B00FCD6CB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFB53F2846226800FCD6CB /* LoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B8EFB541284623B200FCD6CB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFB542284623BC00FCD6CB /* LoginApiService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -475,16 +541,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				88DBCA2B281B919200783EAE /* ShippingViewController.swift in Sources */,
+				B8EFB5492846390200FCD6CB /* Request.swift in Sources */,
 				88FD3B522822F4D600AE03E2 /* ProductsViewController.swift in Sources */,
 				88FD3B542822F4ED00AE03E2 /* CustomersViewController.swift in Sources */,
 				88DBCA23281AFCB400783EAE /* LocationViewController.swift in Sources */,
 				88FD3B4E2822D77800AE03E2 /* SWRevealViewController.m in Sources */,
 				88DBCA2F281C012700783EAE /* CreatingShoppingMethodViewController.swift in Sources */,
 				88FD3B582822FDE900AE03E2 /* TransectionIDViewController.swift in Sources */,
+				B8EFB53328460D6000FCD6CB /* BaseRouter.swift in Sources */,
 				88FD3B562822FA6A00AE03E2 /* TransactionsViewController.swift in Sources */,
+				B8EFB5402846226800FCD6CB /* LoginRouter.swift in Sources */,
+				B8EFB5452846246800FCD6CB /* ConnectionManager.swift in Sources */,
 				88724F1928198E2A001FF01D /* ViewController.swift in Sources */,
+				B8EFB53028460C7B00FCD6CB /* AppConstant.swift in Sources */,
 				88DBCA27281B120C00783EAE /* CreateLocationViewController.swift in Sources */,
 				88DBCA25281B044A00783EAE /* LocationTableViewcell.swift in Sources */,
+				B8EFB543284623BC00FCD6CB /* LoginApiService.swift in Sources */,
 				88FD3B502822DD1E00AE03E2 /* SideViewController.swift in Sources */,
 				88724F4728199075001FF01D /* UISupportFile.swift in Sources */,
 				88724F1528198E2A001FF01D /* AppDelegate.swift in Sources */,

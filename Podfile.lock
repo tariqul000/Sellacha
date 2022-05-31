@@ -1,26 +1,39 @@
 PODS:
-  - Charts (4.0.2):
-    - Charts/Core (= 4.0.2)
-  - Charts/Core (4.0.2):
+  - Alamofire (5.6.1)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - Charts (4.0.3):
+    - Charts/Core (= 4.0.3)
+  - Charts/Core (4.0.3):
     - SwiftAlgorithms (~> 1.0)
   - CircleBar (0.8.2)
   - SwiftAlgorithms (1.0.0)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
   - Charts
   - CircleBar
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - AlamofireImage
     - Charts
     - CircleBar
     - SwiftAlgorithms
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Charts: cfa4e911e6dc289582c2fe011a0e87c03d96727f
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  Charts: d959d6723c8eedfdd0735dfc28cb0a71762ac4d9
   CircleBar: 8e17d2090e6e319b518010535a3145fb8fd68c22
   SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 2c21f578a5f37c9514fb585ed585a0bfe60cd121
+PODFILE CHECKSUM: 2312773c50e3be91e8f8d372428b1e7ff470aa68
 
 COCOAPODS: 1.11.3
